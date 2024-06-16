@@ -67,4 +67,4 @@ def webhook_home():
   for task in tasks:
     print(task['action'],time)
     
-  return render_template("base.html",Title="TRX Assessment",tasks=tasks)
+  return render_template("index.html",Title="TRX Assessment",tasks=tasks)
